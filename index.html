@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test</title>
+    <title>Change H1 Color</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: lime;
+        }
+        input {
+            text-align: center;
+        }
+    </style>
 </head>
-<h1>My name is litun</h1>
 <body>
-    <input type="text" placeholder="name">
-    <button>Submit</button>
-</body>
-</html>
+    <h1 id="header">My name is Litun</h1>
+    <div style="text-align: center;">
+        <input type="text" id="colorInput" placeholder="Enter a color">
+        <button id="submitBtn">Submit</button>
+    </div>
